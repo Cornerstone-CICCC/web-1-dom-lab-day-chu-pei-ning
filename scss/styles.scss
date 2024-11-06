@@ -57,3 +57,18 @@ body {
     }
   }
 }
+
+#employees {
+  thead {
+    background-color: gray;
+    th {
+      padding: 10px 50px 10px 5px;
+    }
+  }
+  #employeeList {
+    background-color: rgb(186, 184, 184);
+    img{
+      width: 100px;
+    }
+  }
+}
