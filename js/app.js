@@ -26,13 +26,14 @@ form.addEventListener("submit", (event) =>{
             <td>${email}</td>
             <td>${hireDate}</td>
       `
+      
       // creat delete button
       const actionCell = document.createElement('td');
       const deleteButton = document.createElement('button');
       deleteButton.textContent = 'Delete';
       deleteButton.addEventListener("click", () => {
             if (confirm('Are you sure you want to delete this employee?') === true) {
-                  tableRow.remove(tableRow)
+                  tableRow.remove()
             }
       })
       actionCell.appendChild(deleteButton);
